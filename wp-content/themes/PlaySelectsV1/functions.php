@@ -6,8 +6,8 @@ remove_action("welcome_panel", "wp_welcome_panel");
 add_action("admin_menu", function () {
     remove_meta_box("dashboard_site_health", "dashboard", "normal");
     remove_meta_box("dashboard_primary", "dashboard", "normal");
-    remove_meta_box("aioseo-rss-feed", "dashboard", "normal");
     remove_meta_box("wpseo-dashboard-overview", "dashboard", "normal");
+    remove_meta_box("wpseo-wincher-dashboard-overview", "dashboard", "normal");
 });
 add_action("init", function () {
     $posts = get_post_type_object("post");
