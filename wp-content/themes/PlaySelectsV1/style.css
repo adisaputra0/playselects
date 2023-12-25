@@ -38,8 +38,6 @@ a {
 
 #branding {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     padding: 0px 10px;
 }
@@ -243,7 +241,6 @@ a {
     height: 100%;
     object-fit: cover;
     z-index: -1;
-    filter: brightness(30%);
 }
 
 .banner-single h1 {
@@ -317,9 +314,28 @@ p {
     font-size: 20px;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.my-3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 @media screen and (max-width:800px) {
     #header {
         flex-direction: column;
+    }
+
+    #branding {
+        justify-content: center;
     }
 }
 
@@ -347,6 +363,15 @@ p {
     .menu>li>ul {
         right: 0;
         width: 180px;
+    }
+
+    .text-footer {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        justify-content: center;
     }
 }
 

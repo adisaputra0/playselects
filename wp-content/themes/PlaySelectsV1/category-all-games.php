@@ -19,7 +19,6 @@
                         "post_type" => "post",
                         "orderBy" => 'title',
                         "order" => "ASC",
-                        // "category_name" => "action"
                     ]);
                 }else{        
                     $posts = get_posts([
