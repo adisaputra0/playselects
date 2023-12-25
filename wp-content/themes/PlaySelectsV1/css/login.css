@@ -1,0 +1,13 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/minecraft.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    display: none !important;
+}
+
+a {
+    color: white !important;
+}
