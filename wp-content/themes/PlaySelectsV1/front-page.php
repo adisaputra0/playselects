@@ -9,7 +9,6 @@
             <?php $posts = get_posts([
                 "posts_per_page" => 4,
                 "post_type" => "post",
-                // "category_name" => "action"
             ])?>
             <?php foreach ($posts as $post): ?>
                 <div class="card">
